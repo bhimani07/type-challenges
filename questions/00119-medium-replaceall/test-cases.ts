@@ -1,4 +1,5 @@
 import type { Equal, Expect } from '@type-challenges/utils'
+import type { ReplaceAll } from './template'
 
 type cases = [
   Expect<Equal<ReplaceAll<'foobar', 'bar', 'foo'>, 'foofoo'>>,
